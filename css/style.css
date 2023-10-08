@@ -1,0 +1,47 @@
+/* Common css start  */
+/* =========== Common Css Start =========== */
+:root{
+    --heading-font:'PT Sans', sans-serif;
+    --secondary-font:'Poppins', sans-serif;
+ 
+}
+
+h1,h2,h3,h4,h5,h6,
+p,ul,
+ol,li {
+    margin: 0;
+    list-style-type: none;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+
+body{
+ font-family: var(--secondary-font); 
+}
+
+
+h1,h2,h3{
+    font-family: var(--heading-font);
+}
+/* =========== Common Css End =========== */
+/* ========== Nav section start============= */
+
+.navbar  {
+    background-color: #ffffff;
+   
+}
+.navbar #primary_Nav ul li a{
+    color: #353535;
+    display: inline-block;
+    font-size: 15px;
+    padding: 19px 22px;
+    font-family: var(--secondary-font);
+    font-weight:500px;
+    text-transform: uppercase;
+}
+
+
+
+/* ========== Nav section End ============= */
